@@ -2,6 +2,9 @@
 
 Second Chance is an end-to-end second-hand store management and sales system. It is designed to streamline the process of managing and selling second-hand items, providing a seamless experience for both store administrators and customers. The system is divided into four main repositories, each serving a specific role in the overall architecture.
 
+
+**_Each repository has detailed documentation available within its respective folder, providing more in-depth information about its setup, usage, and development guidelines._**
+
 ## Repositories
 
 ## 1. Admin Frontend
@@ -13,7 +16,7 @@ The admin-frontend repository contains the code for the admin interface of the S
 ## 2. Store Frontend
 The store-frontend repository contains the code for the store interface of the Second Chance system. Both `store-admin` and `store-employee` can use this. Role Based Access Control using JWT is used for authentication and authorization.
 
-#### `store-admin` Role
+### `store-admin` Role
 They can manage inventory, process sales, and perform other administrative tasks. Key features include:
 
 - Inventory management
@@ -22,7 +25,7 @@ They can manage inventory, process sales, and perform other administrative tasks
 - Order view
 - Employee management (Create new or remove employees)
 
-#### `store-employee` Role
+### `store-employee` Role
  This interface is used by store employees to interact with customers, manage point-of-sale transactions, and handle customer inquiries. Key features include:
 
 - Point-of-sale system
@@ -38,14 +41,13 @@ The public-frontend repository contains the code for the public-facing website o
 - Shopping cart and checkout
 - Card payment processing using Stripe API
 
-### 4. Backend
+## 4. Backend
 
 The backend repository contains the server-side code for the Second Chance system. It handles data storage, business logic, and communication between the different frontends. Key features include:
 
-- RESTful API for frontend communication
+- RESTful FastAPI for frontend communication
 - Database management
 - Authentication and authorization
 - Business logic implementation
 
-**Each repository has detailed documentation available within its respective folder, providing more in-depth information about its setup, usage, and development guidelines.**
 
