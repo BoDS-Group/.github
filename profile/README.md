@@ -5,6 +5,10 @@ Second Chance is an end-to-end second-hand store management and sales system. It
 ## Repositories
 
 ## 1. Admin Frontend
+The admin-frontend repository contains the code for the admin interface of the Second Chance system. It is used by store administrators to manage the stores and their administrators. Key features include:
+
+- Store management
+- Administrator management
 
 ## 2. Store Frontend
 The store-frontend repository contains the code for the store interface of the Second Chance system. Both `store-admin` and `store-employee` can use this. Role Based Access Control using JWT is used for authentication and authorization.
